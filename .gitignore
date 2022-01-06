@@ -60,7 +60,6 @@ brace_checking/cmake-build-debug/.cmake/api/v1/query/cache-v2
 brace_checking/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
 brace_checking/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
 *.json
-*.txt
 brace_checking/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
 brace_checking/cmake-build-debug/.ninja_deps
 brace_checking/cmake-build-debug/.ninja_log
@@ -72,3 +71,4 @@ brace_checking/cmake-build-debug/.ninja_log
 *.cbp
 *.log
 brace_checking/cmake-build-debug/Makefile
+*.ninja_*
