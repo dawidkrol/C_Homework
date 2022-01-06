@@ -55,7 +55,6 @@ brace_checking/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.
 brace_checking/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c
 brace_checking/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c
 brace_checking/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake
-*.txt
 brace_checking/cmake-build-debug/.cmake/api/v1/query/cache-v2
 brace_checking/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
 brace_checking/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
@@ -72,3 +71,9 @@ brace_checking/cmake-build-debug/.ninja_log
 *.log
 brace_checking/cmake-build-debug/Makefile
 *.ninja_*
+*CMake*
+*log.txt
+TargetDirectories.txt
+*.iml
+*.xml
+*environment.txt
