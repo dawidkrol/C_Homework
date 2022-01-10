@@ -172,6 +172,7 @@ int saveToFile(struct El_listy *list, char *filename) {
         fprintf(fp,"%s\n%s\n%d\n",list->imie,list->nazwisko,list->numerID);
         list = list->next;
     }
+    fprintf(fp,"\0");
 
     fclose(fp);
     return 1;
@@ -194,7 +195,7 @@ int addFromFile(struct El_listy *list, char *filename){
     if (fp==NULL)
         return 0;
 
-    for (int i = 0; i < 2; i++) {
+    while (1) {
         struct El_listy e;
         for (int j = 1; j <= 3; j++) {
             if(j==1) {
@@ -205,6 +206,8 @@ int addFromFile(struct El_listy *list, char *filename){
                 fscanf(fp, "%d",&e.numerID);
             }
         }
+        if(e.imie[0] == '\0')
+            break;
         AddAtEnd(e,list);
     }
 
